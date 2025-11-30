@@ -12,7 +12,7 @@
 
 <h2>Ürün Seç</h2>
 
-<button onclick="showProduct('A1')">A1</button>
+<button onclick="showProduct('penyeboxer')">penyeboxer</button>
 <button onclick="showProduct('A2')">A2</button>
 <button onclick="showProduct('A3')">A3</button>
 
@@ -30,7 +30,7 @@
 
 <script>
     let stoklar = {
-        A1: { fiyat: 20, stok: 100 },
+        penyeboxer: { fiyat: 20, stok: 100 },
         A2: { fiyat: 35, stok: 50 },
         A3: { fiyat: 15, stok: 200 }
     };
